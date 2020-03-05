@@ -10,3 +10,6 @@ start:
 
 test: install
 	rake
+
+lint:
+	rubocop -a app spec
