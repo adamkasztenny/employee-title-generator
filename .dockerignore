@@ -13,3 +13,4 @@
 *.swp
 webrat.log
 Gemfile.lock
+spec/
