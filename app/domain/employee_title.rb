@@ -28,7 +28,8 @@ module Domain
     def generate_department
       departments = ['Engineering', 'QA', 'Security', 'Sales',
                      'Marketing', 'Business', 'Product', 'Content',
-                     'Machine Learning', 'Science']
+                     'Machine Learning', 'Science', 'Analytics',
+                     'Cloud', 'Financial', 'IT', 'HR']
       @randomizer.random_element_of(departments)
     end
 
