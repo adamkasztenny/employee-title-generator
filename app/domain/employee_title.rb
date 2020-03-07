@@ -29,7 +29,8 @@ module Domain
       departments = ['Engineering', 'QA', 'Security', 'Sales',
                      'Marketing', 'Business', 'Product', 'Content',
                      'Machine Learning', 'Science', 'Analytics',
-                     'Cloud', 'Financial', 'IT', 'HR']
+                     'Cloud', 'Financial', 'IT', 'HR', 'Software',
+                     'Technology', 'AI', 'Data Science']
       @randomizer.random_element_of(departments)
     end
 
