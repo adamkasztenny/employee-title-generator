@@ -1,6 +1,6 @@
 # Employee Title Generator
 
-Generate vanity titles for your employees, e.g. Senior Chairman of Product Operations.
+Generate vanity titles for your employees, e.g. Senior Chair of Product Operations.
 The frontend for this project can be found [here](https://github.com/adamkasztenny/employee-title-generator-frontend).
 
 ## Starting the server
