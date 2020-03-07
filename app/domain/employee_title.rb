@@ -16,7 +16,7 @@ module Domain
     private
 
     def generate_seniority
-      seniorities = %w[VP Director President Chairman Head]
+      seniorities = %w[VP Director President Chair Head]
       generate_seniority_prefix + @randomizer.random_element_of(seniorities)
     end
 
