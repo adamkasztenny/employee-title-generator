@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require File.dirname(__FILE__) + '/../../app/domain/randomizer'
+require_relative '../../app/domain/randomizer'
 require 'faker'
 
 RSpec.describe 'Randomizer' do

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require File.dirname(__FILE__) + '/../../app/controller/controller'
+require_relative '../../app/controller/controller'
 require 'json'
 
 RSpec.describe 'Employee Title Route' do

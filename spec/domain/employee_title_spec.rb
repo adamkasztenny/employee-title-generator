@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require File.dirname(__FILE__) + '/../../app/domain/employee_title'
+require_relative '../../app/domain/employee_title'
 require 'faker'
 
 RSpec.describe 'Employee Title Generation' do
