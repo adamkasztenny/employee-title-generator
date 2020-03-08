@@ -30,7 +30,8 @@ module Domain
                      'Marketing', 'Business', 'Product', 'Content',
                      'Machine Learning', 'Science', 'Analytics',
                      'Cloud', 'Financial', 'IT', 'HR', 'Software',
-                     'Technology', 'AI', 'Data Science']
+                     'Technology', 'AI', 'Data Science', 'Data',
+                     'Digital', 'Information']
       @randomizer.random_element_of(departments)
     end
 
