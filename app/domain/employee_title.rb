@@ -31,12 +31,12 @@ module Domain
                      'Machine Learning', 'Science', 'Analytics',
                      'Cloud', 'Financial', 'IT', 'HR', 'Software',
                      'Technology', 'AI', 'Data Science', 'Data',
-                     'Digital', 'Information']
+                     'Digital', 'Information', 'Support', 'Design']
       @randomizer.random_element_of(departments)
     end
 
     def generate_specialty
-      seniorities = %w[Operations Strategy Innovation Development]
+      seniorities = %w[Operations Strategy Innovation Development Transformation Consulting Services Research]
       @randomizer.random_element_of(seniorities)
     end
   end
