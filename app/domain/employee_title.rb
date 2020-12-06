@@ -36,8 +36,8 @@ module Domain
     end
 
     def generate_specialty
-      seniorities = %w[Operations Strategy Innovation Development Transformation Consulting Services Research]
-      @randomizer.random_element_of(seniorities)
+      specialties = %w[Operations Strategy Innovation Development Transformation Consulting Services Research]
+      @randomizer.random_element_of(specialties)
     end
   end
 end
