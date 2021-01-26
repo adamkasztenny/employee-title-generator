@@ -13,7 +13,7 @@ make start
 and navigate to [localhost:8080/employee-title](http://localhost:8080/employee-title)
 
 ## Running tests
-You need Ruby 2.6, rake and bundle installed locally to run tests.
+You need Ruby 3.0, rake and bundle installed locally to run tests.
 ```
 make test
 ```
