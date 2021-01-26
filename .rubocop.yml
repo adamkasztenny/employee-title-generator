@@ -8,3 +8,7 @@ Metrics/BlockLength:
 Metrics/AbcSize:
   Exclude: 
     - 'spec/**/*'
+
+Metrics/ParameterLists:
+  Exclude:
+    - 'spec/**/*'

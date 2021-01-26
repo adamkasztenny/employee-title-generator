@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require 'sinatra'
-require_relative '../domain/randomizer.rb'
-require_relative '../domain/employee_title.rb'
+require_relative '../domain/randomizer'
+require_relative '../domain/employee_title'
 
 get '/employee-title' do
   content_type 'application/json'
@@ -11,6 +11,7 @@ get '/employee-title' do
 end
 
 private
+
 def create_title
   randomizer = Domain::Randomizer
   Domain::EmployeeTitle.new(randomizer).generate

@@ -7,7 +7,7 @@ RSpec.describe 'Employee Title Generation' do
   it 'should include a senority prefix' do
     prefix = Faker::Company.buzzword
 
-    generator = create_generator(prefix = prefix)
+    generator = create_generator(prefix: prefix)
     result = generator.generate
 
     expect(result).to contain prefix
@@ -16,7 +16,7 @@ RSpec.describe 'Employee Title Generation' do
   it 'should generate a title with seniority' do
     seniority = Faker::Company.bs
 
-    generator = create_generator(seniority = seniority)
+    generator = create_generator(seniority: seniority)
     result = generator.generate
 
     expect(result).to contain seniority
@@ -26,7 +26,7 @@ RSpec.describe 'Employee Title Generation' do
   it 'should generate a title with a department' do
     department = Faker::Company.profession
 
-    generator = create_generator(department = department)
+    generator = create_generator(department: department)
     result = generator.generate
 
     expect(result).to contain department
@@ -35,7 +35,7 @@ RSpec.describe 'Employee Title Generation' do
   it 'should generate a title with a specialty' do
     specialty = Faker::Company.suffix
 
-    generator = create_generator(specialty = specialty)
+    generator = create_generator(specialty: specialty)
     result = generator.generate
 
     expect(result).to contain specialty
@@ -51,10 +51,10 @@ RSpec.describe 'Employee Title Generation' do
 
   private
 
-  def create_generator(prefix = Faker::Company.buzzword,
-                       seniority = Faker::Company.bs,
-                       department = Faker::Company.profession,
-                       specialty = Faker::Company.suffix)
+  def create_generator(prefix: Faker::Company.buzzword,
+                       seniority: Faker::Company.bs,
+                       department: Faker::Company.profession,
+                       specialty: Faker::Company.suffix)
     randomizer = double('randomizer')
 
     expect(randomizer).to receive(:random_element_of).and_return(prefix)

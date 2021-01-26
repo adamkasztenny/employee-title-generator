@@ -14,5 +14,5 @@ start_development:
 test: install
 	rake
 
-lint:
+lint: install
 	rubocop -a app spec
