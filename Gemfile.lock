@@ -20,7 +20,7 @@ GEM
       ast (~> 2.4.1)
     racc (1.6.0)
     rack (2.2.3)
-    rack-protection (2.1.0)
+    rack-protection (2.2.0)
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -53,11 +53,11 @@ GEM
     rubocop-ast (1.4.1)
       parser (>= 2.7.1.5)
     ruby-progressbar (1.11.0)
-    ruby2_keywords (0.0.4)
-    sinatra (2.1.0)
+    ruby2_keywords (0.0.5)
+    sinatra (2.2.0)
       mustermann (~> 1.0)
       rack (~> 2.2)
-      rack-protection (= 2.1.0)
+      rack-protection (= 2.2.0)
       tilt (~> 2.0)
     tilt (2.0.10)
     unicode-display_width (2.0.0)
@@ -77,7 +77,7 @@ DEPENDENCIES
   rake (~> 12.3)
   rspec (~> 3.0)
   rubocop
-  sinatra (~> 2.1.0)
+  sinatra (~> 2.2.0)
   webrat
   webrick
 
