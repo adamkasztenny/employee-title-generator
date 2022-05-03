@@ -4,7 +4,7 @@ gemspec
 
 gem "rake", "~> 12.3"
 gem "rspec", "~> 3.0"
-gem "sinatra", "~> 2.1.0"
+gem "sinatra", "~> 2.2.0"
 gem "rack"
 gem "json"
 gem "webrick"
